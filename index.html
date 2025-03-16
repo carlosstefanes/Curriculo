@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    body{
+        width: 100%;
+        color: #4ec29b;
+        text-align: center;
+        min-height: 100vh;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 50%;
+        overflow-y: scroll;
+        height: 90vh;
+        padding: 15px 2%;
+        box-shadow: 0 0 5px #5deebd;
+    }
+    .container::-webkit-scrollbar{
+        width: 14px;
+        border: 1px solid #27b384;
+    }
+    .container::-webkit-scrollbar-thumb
+    {
+        background-color: #51e990;
+        border-radius: 6px;
+    }
+    .hr_dados1{
+        border-top: medium dashed #5deebd;
+        border-bottom: medium dashed #4ec29b;
+        height: 5px;
+        overflow: visible;
+        text-align: center;
+    }
+    .hr_dados1::after{
+        content: "CARLOS EDUARDO POMERENING STEFANES";
+        font-size: 1.4em;
+        padding: 0 0.3em;
+        top: -0.7em;
+        background: #fff;
+        display: inline;
+        position: relative;
+    }
+    .hr_08{
+        border-top: medium dashed #4ec29b;
+        border-bottom: medium dashed #5deebd;
+        height: 3px;
+        overflow: visible;
+        padding: 0;
+        text-align: center;
+    }
+    .hr_08::after{
+        content: 'Redes sociais';
+        position: relative;
+        top: -0.7em;
+        font-size: 1.4em;
+        background-color: #fff;
+        display: inline;
+        padding: 0 0.3em;
+
+    }
+    .fab{
+        cursor: pointer;
+        margin: 5px;
+        max-height: 100%;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .fab:hover{
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        transform: scale(1.5);
+        color: #000;
+    }
+</style>
+<body>
+    <div class="container"><br><br>
+        <hr class="hr_dados1"><br><br>
+        <img src="imagens/foto carlos.jpg"
+        alt="homem" width="250" height="200">
+        <h3>17 anos, Masculino</h3>
+        <h3>Rua rufino rodrigues frança, 89520-000
+            Curitibanos-SC</h3>
+            <h3(49) 998099712></h3>
+            <h3>Email: carlosepstefanes@uniplaclages.edu.br</h3>
+            <h3>Instagram: @carlos_eduardo2307</h3><br>
+            <hr class="hr_01"><br>
+            <h3>Gosta de trabalhar em grupo</h3><br><br>
+            <hr class="hr_02"><br>
+            <h3>Com 17 anos, ingressei na faculdade 
+                de tecnologia, e estou estudando 
+                para que no futuro possa trabalhar na
+                área.
+            </h3>
+            <hr class="hr_03"><br>
+            <h3>Ensino médio completo.</h3>
+            <h4>Escola Centro De Educação Santa Teresinha.</h4><br>
+            <hr class="hr_04"><br>
+            <h3>Gosto de trabalhar em equipe, e na 
+                área de tecnologia.</h3><br>
+            <hr class="hr_05"><br>
+            <ul>
+                <li>
+                    Microsoft Visual Studio Code, github
+                    Dev C++.
+                </li>
+                <li>
+                    Pacote Office
+                </li>
+            </ul>
+            <hr class="hr_06"><br>
+            <h3>Inglês intermediário</h3><br>
+            <hr class="hr_07"><br>
+            <ul>
+                <li>
+                    Html, Css, Nivel Iniciante.
+                </li>
+            </ul>
+            <hr class="hr_08"><br>
+            <div class="font">
+                <h5>Compartilhar</h5><br>
+                <i class="fab-fa-"style="font-size: 35px;"></i>
+                <h5>Compartilhar</h5><br>
+                <i class="fab-fa-GIT HUB"style="font-size: 35px;"></i>
+                <h5>Compartilhar</h5><br>
+                <i class="fab-fa-tiktok"style="font-size: 35px;"></i>
+                <h5>Compartilhar</h5><br>
+                <i class="fab-fa-whatszaap"style="font-size: 35px;"></i>
+                <h5>Compartilhar</h5><br>
+            </div>
+
+    </div>
+    
+    
+</body>
+</html>
